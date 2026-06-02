@@ -1,0 +1,63 @@
+﻿ STT , Mã yêu cầu , Loại yêu cầu , Đơn vị  ,Số lượng yêu cầu theo hợp đồng,Số lượng yêu cầu đã thực hiện,Số lượng yêu cầu còn lại theo hợp đồng,Quý 1,,,,Quý 2,,,,Quý 3,,,,Quý 4,,,,Quý 5,,,,Quý 6,,,,Quý 7,,,,Quý 8,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Tổng,T1,T2,T3,Tổng,T4,T5,T6,Tổng,T7,T8,T9,Tổng,T10,T11,T12,Tổng,T13,T14,T15,Tổng,T16,T17,T18,Tổng,T19,T20,T21,Tổng,T22,T23,T24
+ I ,, Yêu cầu hỗ trợ hạ tầng CNTT ứng dụng Quản lý hóa đơn điện tử , Yêu cầu ,"54,517","6,843","47,674","6,843","2,317","2,275","2,251",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+I.1,, Yêu cầu hỗ trợ hệ thống máy chủ và dịch vụ , Yêu cầu ,"24,024","3,079","20,945","3,079","1,042","1,033","1,004",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,, Thực hiện hỗ trợ dịch vụ hệ thống/hệ điều hành theo một trong các yêu cầu sau: , Yêu cầu ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,SSHD01,Thực hiện cài đặt dịch vụ hệ thống/hệ điều hành, Yêu cầu ,,,,745,315,220,210,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+2,SSHD02,Thực hiện cấu hình tham số dịch vụ hệ thống/hệ điều hành, Yêu cầu ,,,,123,0,0,123,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+3,SSHD03,Thực hiện khắc phục sự cố hoặc xử lý yêu cầu liên quan đến dịch vụ hệ thống/hệ điều hành, Yêu cầu ,,,,585,171,294,120,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+4,SSHD04,Thực hiện cập nhật firmware/hotfix/patch/phiên bản của dịch vụ hệ thống hoặc hệ điều hành, Yêu cầu ,,,,394,64,100,230,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+5,SSHD05,Thực hiện xử lý các cảnh báo phần cứng trên thiết bị, Yêu cầu ,,,,8,0,0,8,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+,, Thực hiện hỗ trợ hệ thống ảo hóa theo một trong các yêu cầu sau: , Yêu cầu ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+6,SSHD06,Thực hiện cấu hình tham số dịch vụ hệ thống ảo hóa, Yêu cầu ,,,,7,7,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+7,SSHD07,Thực hiện khắc phục sự cố hoặc xử lý yêu cầu trên hệ thống ảo hóa, Yêu cầu ,,,,36,24,0,12,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+,, Thực hiện hỗ trợ phần mềm nền tảng (Midleware) theo một trong các yêu cầu sau: , Yêu cầu ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,SSHD08,Thực hiện cài đặt phần mềm nền tảng (middleware), Yêu cầu ,,,,99,60,39,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+9,SSHD09,Thực hiện cấu hình tham số phần mềm nền tảng (middleware), Yêu cầu ,,,,31,0,29,2,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+10,SSHD10,Thực hiện cập nhật bản vá/phiên bản của phần mềm nền tảng ứng dụng (middleware) , Yêu cầu ,,,,0,0,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+11,SSHD11,Thực hiện khắc phục sự cố hoặc xử lý yêu cầu liên quan đến phần mềm nền tảng ứng dụng (middleware) , Yêu cầu ,,,,232,72,70,90,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+12,SSHD12,"Thực hiện khắc phục sự cố người sử dụng không sử dụng được ứng dụng (không login, mất kết nối,..).", Yêu cầu ,,,,0,0,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+13,SSHD13,Thực hiện khắc phục sự cố trao đổi dữ liệu/thông tin giữa các ứng dụng hoặc với đối tác truyền nhận dữ liệu hóa đơn điện tử., Yêu cầu ,,,,0,0,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+14,SSHD14,Thực hiện khắc phục sự cố máy chủ ứng dụng sử dụng vượt ngưỡng tài nguyên cho phép (RAM; CPU; HDD), Yêu cầu ,,,,819,329,281,209,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+I.2,, Yêu cầu hỗ trợ hệ thống mạng , Yêu cầu ,"4,356",548,"3,808",548,190,189,169,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,SNHD01,Cấu hình tham số hoặc xử lý sự cố kênh truyền kết nối với các đơn vị đối tác trao đổi thông tin với Cục Thuế, Yêu cầu ,,,,147,52,48,47,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+2,SNHD02,Thực hiện cấu hình hoặc xử lý sự cố/cảnh báo liên quan đến thiết bị mạng tại Cục Thuế (Core Switch/Spine swich/Leaf switch/Access switch/Management switch/Router/DWDM), Yêu cầu ,,,,216,77,74,65,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+3,SNHD03,Thực hiện cấu hình hoặc xử lý sự cố/cảnh báo liên quan đến hệ thống cân bằng tải, Yêu cầu ,,,,185,61,67,57,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+I.3,, Yêu cầu hỗ trợ hệ thống an toàn thông tin , Yêu cầu ,"5,585",688,"4,897",688,219,237,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,SAHD01,Thực hiện khắc phục sự cố hoặc xử lý yêu cầu liên quan đến hệ thống An toàn thông tin, Yêu cầu ,,,,112,63,32,17,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+2,SAHD02,Thực hiện cấu hình/cập nhật tham số trên hệ thống An toàn thông tin, Yêu cầu ,,,,279,78,97,104,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+3,SAHD03,Thực hiện nâng cấp phiên bản firmware cho thiết bị An toàn thông tin, Yêu cầu ,,,,297,78,108,111,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+4,SAHD04,"Thực hiện xử lý các cảnh báo phần cứng trên thiết bị, phối hợp trong trường hợp bảo hành thiết bị", Yêu cầu ,,,,0,0,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+I.4,, Yêu cầu hỗ trợ hệ thống Cơ sở dữ liệu , Yêu cầu ,"14,454","1,838","12,616","1,838",610,615,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,SDHD01,Xử lý sự cố liên quan tới các vấn đề về hệ thống CSDL, Yêu cầu ,,,,833,245,188,400,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+2,SDHD02,Thêm/sửa/xoá/xử lý các vấn đề liên quan đến object của CSDL, Yêu cầu ,,,,70,33,1,36,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+3,SDHD03,Thêm sửa xóa quyền/role cho User của hệ quản trị CSDL, Yêu cầu ,,,,84,6,76,2,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+4,SDHD04,Hỗ trợ xử lý các vấn đề liên quan đến các node trong DC/Cluster (thêm/bớt node trong DC/Cluster; tăng/giảm tài  nguyên cho node; xử lý các vấn đề về đồng bộ..v.v), Yêu cầu ,,,,851,326,350,175,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+I.5,, Yêu cầu hỗ trợ hệ thống sao lưu , Yêu cầu ,"6,098",690,"5,408",690,256,201,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,SBHD01,Thực hiện khắc phục sự cố hoặc xử lý yêu cầu liên quan đến hệ thống sao lưu, Yêu cầu ,,,,546,200,164,182,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+2,SBHD02,Thực hiện cập nhật tham số trên hệ thống sao lưu, Yêu cầu ,,,,144,56,37,51,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+3,SBHD03,Thực hiện cập nhật cấu hình trên thiết bị sao lưu, Yêu cầu ,,,,0,0,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+4,SBHD04,Thực hiện/phối hợp khôi phục dữ liệu hoặc kiểm tra định kỳ việc khôi phục dữ liệu, Yêu cầu ,,,,0,0,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+5,SBHD05,Thực hiện xử lý các cảnh báo phần cứng trên thiết bị/phối hợp trong trường hợp bảo hành thiết bị, Yêu cầu ,,,,0,0,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+ II , II , Yêu cầu quản trị hạ tầng CNTT  , Yêu cầu ,"16,162","2,064","14,098","2,064",691,691,682,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+II.1,,Yêu cầu quản trị phần mềm nền tảng (middleware),Yêu cầu,"3,314",433,"2,881",433,149,146,138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,MSHD01,"Thực hiện đánh giá hoạt động hàng ngày phân hệ Public internet/ứng dụng core của ứng dụng Hóa đơn điện tử qua hệ thống giám sát theo một trong các yêu cầu sau:
+- Đánh giá hiệu năng ứng dụng (RAM; CPU; HDD; CCU; I/O;..)
+- Đánh giá thời gian phản hồi của ứng dụng (với từng server logic)
+- Đánh giá tài nguyên ứng dụng sử dụng (heapsize; cache;...)", Yêu cầu ,,,,336,109,108,119,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+2,MSHD02,"Rà soát, cập nhật, xây dựng tài liệu checklist và hướng dẫn thực hiện checklist hệ thống ứng dụng định kỳ 3 tháng/lần hoặc khi có thay đổi hoặc phân tích thấy cần thiết phải bổ sung", Yêu cầu ,,,,1,0,0,1,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+3,MSHD03,"Rà soát, đánh giá và đề xuất thay đổi cấu hình trên một máy chủ ứng dụng hoặc một cấu phần ứng dụng đảm bảo tối ưu hệ thống theo một trong các yêu cầu sau:
+- Đánh giá bản vá/phiên bản mới đề xuất phương án với ứng dụng cụ thể.
+- Thực hiện kiểm thử bản vá/phiên bản middleware
+- Xây dựng tài liệu cài đặt/update bản vá/phiên bản của middleware
+- Thực hiện đánh giá tham số nền tảng middleware", Yêu cầu ,,,,96,40,38,18,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+4,MSHD04,Rà soát/cập nhật tài liệu thiết kế/thông số hệ thống ứng dụng 3 tháng/lần hoặc khi có thay đổi, YC ,,,,0,0,0,0,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+II.2,,Yêu cầu quản trị hệ thống cơ sở dữ liệu (Database), Yêu cầu ,"12,848","1,631","11,217","1,631",542,545,544,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,MDHD01,"Rà soát, đánh giá, đề xuất tinh chỉnh cấu hình (nếu có) hệ thống giám sát/báo cáo hoạt động của hệ thống CSDL", Yêu cầu ,,,,12,2,5,5,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+2,MDHD02,"Rà soát, đánh giá, đề xuất tinh chỉnh cấu hình các thông số liên quan đến các object (nếu có) của CSDL", Yêu cầu ,,,,22,2,16,4,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+3,MDHD03,"Rà soát, đánh giá, đề xuất tinh chỉnh (nếu có) các tham số đồng bộ dữ liệu giữa các node của CSDL; của Datacenter/Cluster", Yêu cầu ,,,,470,188,129,153,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+4,MDHD04,"Thực hiện cấu hình, tinh chỉnh hệ thống CSDL theo các giải pháp đề xuất được phê duyệt.", Yêu cầu ,,,,26,3,18,5,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+5,MDHD05,Xây dựng/hiệu chỉnh tài liệu quản trị/tài liệu vận hành (Checklist)., Yêu cầu ,,,,6,2,2,2,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+6,MDHD06,Đánh giá và lập báo cáo đánh giá hoạt động của hệ thống CSDL., Yêu cầu ,,,,"1,076",339,368,369,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
+7,MDHD07,"Rà soát, cập nhật tài liệu thiết kế/tài liệu thông số/tài liệu quy trình cài đặt hệ thống CSDL.", Yêu cầu ,,,,19,6,7,6,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,,0,,,
