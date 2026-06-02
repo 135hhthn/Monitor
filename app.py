@@ -69,13 +69,14 @@ def load_and_preprocess_data(file):
 
 # --- 2. MENU SIDEBAR ---
 st.sidebar.header("⚙️ Menu Bộ Lọc")
-uploaded_file = st.sidebar.file_uploader("1. Tải lên file CSV", type=['csv'])
+# Tự động đọc file CSV đang để cùng thư mục trên GitHub
+file_path = "Tổng hợp yêu cầu_Dashboard.xlsx - Sheet1.csv" # Đảm bảo tên file này giống y hệt tên file bạn up lên GitHub
 
-if uploaded_file is None:
-    st.info("👈 Vui lòng tải file CSV ở menu bên trái để hiển thị Dashboard.")
+try:
+    df, thang_cols = load_and_preprocess_data(file_path)
+except Exception as e:
+    st.error("Không tìm thấy file dữ liệu, vui lòng kiểm tra lại!")
     st.stop()
-
-df, thang_cols = load_and_preprocess_data(uploaded_file)
 
 # Menu 2.1: Chọn Nhóm (Bổ sung Báo cáo chung và Nhóm quản trị)
 st.sidebar.subheader("2. Chọn Nhóm Báo Cáo")
