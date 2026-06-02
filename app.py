@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import os
 
 st.set_page_config(page_title="Dashboard Phân Tích", layout="wide")
 
@@ -67,19 +68,23 @@ def load_and_preprocess_data(file):
     
     return df, thang_cols
 
-# --- 2. MENU SIDEBAR ---
-st.sidebar.header("⚙️ Menu Bộ Lọc")
-# Tự động đọc file CSV đang để cùng thư mục trên GitHub
-file_path = "Tổng hợp yêu cầu_Dashboard.xlsx - Sheet1.csv" # Đảm bảo tên file này giống y hệt tên file bạn up lên GitHub
+# --- 2. TỰ ĐỘNG ĐỌC DỮ LIỆU TỪ FILE MỚI ---
+# Đã đổi tên file theo yêu cầu
+file_path = "Tổng hợp yêu cầu_Dashboard.csv"
 
-try:
-    df, thang_cols = load_and_preprocess_data(file_path)
-except Exception as e:
-    st.error("Không tìm thấy file dữ liệu, vui lòng kiểm tra lại!")
+if not os.path.exists(file_path):
+    st.error(f"❌ Không tìm thấy file dữ liệu: `{file_path}`")
+    st.warning("Vui lòng đảm bảo file đã được đổi tên thành 'Tổng hợp yêu cầu_Dashboard.csv' và đặt cùng thư mục với file `app.py`.")
     st.stop()
 
-# Menu 2.1: Chọn Nhóm (Bổ sung Báo cáo chung và Nhóm quản trị)
-st.sidebar.subheader("2. Chọn Nhóm Báo Cáo")
+# Đọc dữ liệu tự động
+df, thang_cols = load_and_preprocess_data(file_path)
+
+# --- 3. MENU SIDEBAR ---
+st.sidebar.header("⚙️ Menu Bộ Lọc")
+
+# Menu 3.1: Chọn Nhóm
+st.sidebar.subheader("1. Chọn Nhóm Báo Cáo")
 nhom_options = ["Báo cáo chung", "Nhóm Hỗ trợ", "Nhóm Quản trị"]
 selected_nhom = st.sidebar.multiselect("Lọc theo nhóm:", options=nhom_options, default=["Báo cáo chung", "Nhóm Hỗ trợ", "Nhóm Quản trị"])
 
@@ -90,23 +95,23 @@ if not selected_nhom:
 # Lọc ra các nhóm thực tế (bỏ chữ Báo cáo chung ra để lọc hệ thống)
 real_groups = [g for g in selected_nhom if g in ['Nhóm Hỗ trợ', 'Nhóm Quản trị']]
 
-# Menu 2.2: Chọn Hệ Thống (Hiển thị CHỈ CÁC HỆ THỐNG thuộc NHÓM đã chọn ở trên)
+# Menu 3.2: Chọn Hệ Thống
 he_thong_options = df[(df['Nhom_Chinh'].isin(real_groups)) & (df['Level'] == 2)]['He_Thong'].unique().tolist()
 if real_groups:
-    st.sidebar.subheader("3. Chọn Hệ Thống Cụ Thể")
+    st.sidebar.subheader("2. Chọn Hệ Thống Cụ Thể")
     selected_he_thong = st.sidebar.multiselect("Lọc theo hệ thống:", options=he_thong_options, default=he_thong_options)
 else:
     selected_he_thong = []
 
-# Menu 2.3: Chọn Tháng
-st.sidebar.subheader("4. Chọn Tháng Thực Hiện")
+# Menu 3.3: Chọn Tháng
+st.sidebar.subheader("3. Chọn Tháng Thực Hiện")
 selected_thang = st.sidebar.multiselect("Lọc theo tháng:", options=thang_cols, default=thang_cols[:3])
 
 if not selected_thang:
     st.warning("Vui lòng chọn ít nhất 1 tháng!")
     st.stop()
 
-# --- 3. VẼ DASHBOARD ---
+# --- 4. VẼ DASHBOARD ---
 
 # ==========================================
 # PHẦN 1: BÁO CÁO CHUNG TỔNG QUÁT (MÀU TƯƠI SÁNG)
